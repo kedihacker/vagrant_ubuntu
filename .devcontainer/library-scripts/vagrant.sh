@@ -5,7 +5,7 @@ sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(l
 
 sudo apt-get update && sudo apt-get install vagrant
 
-echo "deb [arch=amd64] https://download.virtualbox.org/virtualbox/debian <mydist> contrib" >> /etc/apt/sources.list 
+echo "deb [arch=amd64] https://download.virtualbox.org/virtualbox/debian focal contrib" >> /etc/apt/sources.list 
 
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
 wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
